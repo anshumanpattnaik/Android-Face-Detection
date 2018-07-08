@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/glass_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/clear_btn"
+        android:numColumns="2"
+        android:padding="10dp" />
+
+    <com.twins.virtualmirror.fonts.CustomButtonBold
+        android:id="@+id/clear_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red"
+        android:text="Clear"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

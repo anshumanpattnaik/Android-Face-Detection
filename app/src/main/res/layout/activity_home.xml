@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HomeActivity">
+
+    <com.twins.virtualmirror.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.twins.virtualmirror.camera.GraphicOverlay
+            android:id="@+id/faceOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.twins.virtualmirror.camera.CameraSourcePreview>
+
+    <Button
+        android:id="@+id/share_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/item_tab_layout"
+        android:text="SHARE"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/thumb_img"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/item_tab_layout"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/item_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_alignParentBottom="true">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/red"
+            app:tabIndicatorHeight="3dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextAppearance="@style/CustomTabText"
+            app:tabTextColor="@color/grey" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tabs"
+            android:background="@color/white">
+
+        </android.support.v4.view.ViewPager>
+
+    </RelativeLayout>
+</RelativeLayout>

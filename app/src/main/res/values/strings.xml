@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">VirtualMirror</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+
+    <array name="glasses">
+        <item>@drawable/ray_ban_one</item>
+        <item>@drawable/ray_ban_two</item>
+        <item>@drawable/ray_ban_three</item>
+        <item>@drawable/ray_ban_four</item>
+        <item>@drawable/ray_ban_five</item>
+        <item>@drawable/ray_ban_six</item>
+        <item>@drawable/ray_ban_seven</item>
+        <item>@drawable/ray_ban_eight</item>
+        <item>@drawable/ray_ban_nine</item>
+        <item>@drawable/ray_ban_ten</item>
+    </array>
+
+    <array name="mustache">
+        <item>@drawable/mustache_one</item>
+        <item>@drawable/mustache_two</item>
+        <item>@drawable/mustache_three</item>
+        <item>@drawable/mustache_four</item>
+        <item>@drawable/mustache_five</item>
+        <item>@drawable/mustache_six</item>
+        <item>@drawable/mustache_seven</item>
+        <item>@drawable/mustache_eight</item>
+        <item>@drawable/mustache_nine</item>
+        <item>@drawable/mustache_ten</item>
+    </array>
+
+</resources>
