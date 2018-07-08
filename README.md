@@ -3,7 +3,7 @@
 ## Overview
 This a sample demostration of Google Face detection API.It can able to detect multiple human faces at one time. 
 
-<div align="center">
+<div>
   <a href="https://www.youtube.com/watch?v=eCne1t2Tfk4">
     <img src="/Screenshots/virtual_mirror.png" alt="IMAGE ALT TEXT" width="300">
   </a>
